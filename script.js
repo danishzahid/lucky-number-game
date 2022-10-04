@@ -1,6 +1,7 @@
 const dateOfBirth = document.querySelector("#date-of-birth");
 const luckyNumber = document.querySelector("#lucky-number");
 const checkNumberButton = document.querySelector("#check-number");
+const outputBox = document.querySelector("#output-bx");
 
 function sumOfDate(date){
     date = date.replaceAll("-", "");
@@ -16,9 +17,9 @@ checkNumberButton.addEventListener('click', function checkBdayLucky(){
    const num = luckyNumber.value;
    const sumDOB = sumOfDate(date);
    if(sumDOB % num == 0){
-    console.log("Bday Lucky");
+    outputBox.value = "Bday Lucky";
    } else{
-    console.log("Bday not lucky");
+    outputBox.value = "Bday not lucky";
    }
 })
 
