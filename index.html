@@ -4,17 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>Birthday Lucky</title>
 </head>
 <body>
     <h1>Is Your Bday Lucky! 🥳</h1>
     <div class="container">
-        <label for="date-of-birth">Date of Birth:</label>
-        <input type="date" name="" id="date-of-birth">
-        <label for="lucky-number">Lucky Number</label>
-        <input type="number" name="" id="lucky-number">
+        <label for="date-of-birth"><strong>Date of Birth:</strong><input type="date" name="" id="date-of-birth"></label> 
+        <label for="lucky-number"><strong>Lucky Number:</strong><input type="number" name="" id="lucky-number" placeholder="Enter lucky num" ></label>
+        <div class="btn">
         <button id="check-number">Check Number</button>
-        <textarea name="" id="output-bx" disabled></textarea>
+        </div>
+    <div class="output-block">
+        <textarea name="" id="output-bx" placeholder="Check if your Bday is lucky or not!" disabled></textarea>
+    </div>
+        <div class="portfolio">
+            <a href="https://clbydanish.netlify.app">Project by Danish Zahid</a>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>

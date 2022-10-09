@@ -1,0 +1,49 @@
+.container {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    background-color: maroon;
+    color: white;
+    border-radius: 2px;
+    padding: 0.5rem;
+}
+.portfolio {
+    margin-top: 8rem;
+}
+a:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.output-block {
+    margin-top: 1rem;
+}
+
+#output-bx {
+    background-color: antiquewhite;
+    padding: 1rem;
+}
+
+.btn {
+    margin-top: 1rem;
+}
+
+#check-number {
+    background-color: antiquewhite;
+    color: brown;
+    padding: 0.5rem;
+}
+
+#check-number:hover {
+    background-color: bisque;
+    border-color: white;
+}
